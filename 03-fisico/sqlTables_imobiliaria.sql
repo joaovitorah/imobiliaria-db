@@ -81,3 +81,8 @@ CREATE TABLE contrato (
     FOREIGN KEY (id_imovel) REFERENCES imovel(id_imovel)
         ON UPDATE CASCADE ON DELETE CASCADE
 ) ENGINE=InnoDB;
+
+CREATE INDEX IDX_Imovel_status ON Imovel(status);
+CREATE INDEX IDX_Cliente_cpf ON Cliente(cpf);
+CREATE INDEX IDX_Contrato_data_inicio ON Contrato(data_inicio);
+CREATE INDEX IDX_Visita_data ON Visita(data_visita);
