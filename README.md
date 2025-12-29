@@ -50,6 +50,8 @@ O sistema permite o cadastro completo e mantém o histórico de visitas e contra
 | CONTRATO       | PK id_contrato; tipo_contrato; data_inicio; data_fim; valor_final; FK id_cliente; FK id_corretor; FK id_imovel |
 | EMPREENDIMENTO | PK id_empreendimento; nome; construtora; endereco; status |
 
+<img width="1579" height="878" alt="image" src="https://github.com/user-attachments/assets/61ab9b5f-be5e-4555-9a23-8117f3417d12" />
+
 ---
 
 ## Chaves Primárias (PK)
